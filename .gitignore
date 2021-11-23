@@ -1,0 +1,6 @@
+ADDRESS.json
+build
+.env.local
+.idea
+.next
+node_modules
