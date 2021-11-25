@@ -79,7 +79,7 @@ function RequestIndex(props) {
 						<Button basic floated='right'>Back</Button>
 					</Link>
 					<Link route={C.ROUTES.REQUEST_NEW(props.address)}>
-						<Button floated='right' primary>New Request</Button>
+						<Button color='teal' floated='right'>New Request</Button>
 					</Link>
 				</Grid.Column>
 			</Grid>

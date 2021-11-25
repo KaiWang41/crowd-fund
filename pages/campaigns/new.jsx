@@ -64,7 +64,7 @@ function CampaignNew() {
 				</Form.Field>
 
 				<Message error header='Oops...' content={errorMessage} />
-				<Button primary type='submit'>Create</Button>
+				<Button color='teal' type='submit'>Create</Button>
 			</Form>
 		</Layout>
 	);

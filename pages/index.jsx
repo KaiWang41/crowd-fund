@@ -68,7 +68,7 @@ function CampaignIndex(props) {
 			<h3>Open Campaigns</h3>
 
 			<Link route={C.ROUTES.CAMPAIGN_NEW}>
-				<Button content='Create Campaign' floated='right' icon='add circle' primary />
+				<Button color='teal' content='Create Campaign' floated='right' icon='add circle' />
 			</Link>
 
 			{renderCampaigns()}

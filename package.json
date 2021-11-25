@@ -1,10 +1,11 @@
 {
   "name": "crowd-fund",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Kangyi Wang",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
+    "build": "next build",
     "test": "mocha"
   },
   "dependencies": {

@@ -15,9 +15,32 @@ Layout.propTypes = {
  * @constructor
  */
 function Layout(props) {
+	const Footer = () => {
+		const year = (new Date()).getFullYear();
+		return (
+			<div
+				style={{
+					color: 'grey',
+					marginTop: 64,
+					paddingBottom: 32,
+					textAlign: 'center',
+					width: '100%',
+				}}
+			>
+				<small>Copyright &copy; {year}, Kangyi Wang. All Rights Reserved</small>
+			</div>
+		);
+	};
+
 	return (
 		<>
 			<Head>
+				<title>SmartRaiser</title>
+
+				<link rel='apple-touch-icon' sizes='180x180' href='/static/apple-touch-icon.png' />
+				<link rel='icon' type='image/png' sizes='32x32' href='/static/favicon-32x32.png' />
+				<link rel='icon' type='image/png' sizes='16x16' href='/static/favicon-16x16.png' />
+
 				<link
 					async
 					rel='stylesheet'
@@ -32,6 +55,7 @@ function Layout(props) {
 			<Container>
 				<Header />
 				{props.children}
+				<Footer />
 			</Container>
 		</>
 	);

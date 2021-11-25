@@ -35,7 +35,7 @@ function ContributeForm(props) {
 			</Form.Field>
 
 			<Message content={props.errorMessage} error header='Oops...' />
-			<Button primary type='submit'>Confirm</Button>
+			<Button color='teal' type='submit'>Confirm</Button>
 		</Form>
 	);
 }

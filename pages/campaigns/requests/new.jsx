@@ -94,7 +94,7 @@ function RequestNew(props) {
 				</Form.Field>
 
 				<Message content={error} error header='Oops...' />
-				<Button primary type='submit'>Create</Button>
+				<Button color='teal' type='submit'>Create</Button>
 				{success && <Message content={success} positive header='Success' onDismiss={() => setSuccess('')} />}
 			</Form>
 		</Layout>

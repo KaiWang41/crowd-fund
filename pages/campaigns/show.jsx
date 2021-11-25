@@ -127,7 +127,7 @@ function CampaignShow(props) {
 				<Grid.Row>
 					<Grid.Column>
 						<Link route={C.ROUTES.REQUESTS(props.address)}>
-							<a><Button primary>View Requests</Button> </a>
+							<a><Button color='teal'>View Requests</Button> </a>
 						</Link>
 					</Grid.Column>
 				</Grid.Row>
