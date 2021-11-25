@@ -1,5 +1,6 @@
 ADDRESS.json
 build
+.DS_Store
 .env.local
 .idea
 .next
